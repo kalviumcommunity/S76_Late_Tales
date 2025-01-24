@@ -1,0 +1,15 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "The Late Arrival Management System is designed to track and manage late arrivals in schools, colleges, or workplaces. The system aims to streamline the process of recording latecomers, notifying relevant authorities, and analyzing patterns to improve punctuality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Razy",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
