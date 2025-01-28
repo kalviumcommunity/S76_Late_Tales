@@ -1,34 +1,34 @@
-# Late Arrival Management System
+# Late Tales
 
 ## Project Overview
-The Late Arrival Management System is designed to track and manage late arrivals in schools, colleges, or workplaces. The system aims to streamline the process of recording latecomers, notifying relevant authorities, and analyzing patterns to improve punctuality.
+Late Tales is a fun and engaging platform that allows anonymous users to vote and comment on their weird and unique reasons for being late. The application provides interactive and dynamic rankings globally, showcasing the best, funniest, and most creative excuses. The primary goal of Late Tales is to entertain users while fostering a sense of community through shared experiences.
 
 ## Key Features
-- User authentication (students/employees and administrators)
-- Automated late arrival tracking with timestamps
-- Notifications to concerned personnel (teachers/managers)
-- Reporting and analytics to identify trends
-- Integration with ID scanning or manual input options
-- Mobile-friendly interface for easy access
+
+### User Authentication
+- Users can log in to the application securely to participate in voting and commenting.
+
+### Voting and Commenting System
+- Users can vote on the funniest and most creative excuses.
+- Commenting allows users to provide open and honest feedback on others' excuses.
+
+### Ranking System
+- A dynamic ranking system that updates periodically (weekly, monthly, etc.).
+- Users can explore rankings and discover the most popular reasons.
 
 ## Tech Stack
 
-- *Frontend*: React.js, Tailwind CSS, React Router, Framer Motion
-- *Backend*: Node.js, Express.js
-- *Database*: MongoDB
+### Frontend
+- **React.js** - For building a dynamic and responsive user interface.
+- **Tailwind CSS** - For styling and making the UI visually appealing.
+- **React Router** - For seamless navigation within the application.
 
-## Installation
+### Backend
+- **Node.js with Express.js** - For handling server-side logic and API requests.
+- **MongoDB** - A NoSQL database to store user-submitted reasons and rankings.
 
-1. Clone the repo:
-   bash
-   git clone https://github.com/kalviumcommunity/S76_Late_Tales.git
-   cd S76_Late_Tales\README.md
-   
+### Database
+- **MongoDB** - Used to store and manage user data, comments, and rankings.
 
-2. Install dependencies:
-   - Backend: npm install (in the backend directory)
-   - Frontend: npm install (in the frontend directory)
-
-3. Start the backend: npm run dev (in the backend directory)
-
-4. Start the frontend: npm start (in the frontend directory)
+## Why This Project?
+Late Tales was chosen for its unique and thought-provoking nature. This project ensures fun and entertainment for users by tapping into the human tendency to form opinions and express preferences. The platform offers a lighthearted space where users can share relatable experiences and engage with others in a humorous way.
