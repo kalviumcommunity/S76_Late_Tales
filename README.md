@@ -3,7 +3,7 @@
 ## Project Overview
 Late Tales is a fun and engaging platform that allows anonymous users to vote and comment on their weird and unique reasons for being late. The application provides interactive and dynamic rankings globally, showcasing the best, funniest, and most creative excuses. The primary goal of Late Tales is to entertain users while fostering a sense of community through shared experiences.
 
-## Key Features
+# Key Features
 
 ### User Authentication
 - Users can log in to the application securely to participate in voting and commenting.
