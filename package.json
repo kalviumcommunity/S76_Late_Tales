@@ -10,11 +10,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mongoose": "^8.10.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
+=======
+    "express": "^4.21.2",
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.10.0"
+>>>>>>> ac0839ca097d4bb8b1841e1ef8913f56e20c4d1d
   }
 }
