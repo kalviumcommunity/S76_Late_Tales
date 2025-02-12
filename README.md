@@ -40,3 +40,7 @@
 ## **Why This Project?**
 
 **Late Tales** was chosen for its **unique and thought-provoking nature.** This project ensures **fun and entertainment for users** by tapping into the human tendency to form opinions and express preferences. The platform offers a **lighthearted space** where users can share relatable experiences and engage with others in a humorous way.
+
+## deployment link
+
+https://s76-late-tales-uq10.onrender.com
