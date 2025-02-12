@@ -43,4 +43,3 @@
 
 ## deployment link
 
-https://s76-late-tales-uq10.onrender.com
