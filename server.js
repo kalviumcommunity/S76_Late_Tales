@@ -1,19 +1,20 @@
 const express = require("express");
-
-const db = require("./database"); // Import db from database.js
+const db = require("./database"); // Ensure database connection is established first
+const routes = require("./routes"); // Import routes.js
 
 const app = express();
 const port = 3000;
 
-app.get("/ping", (req, res) => {
-  res.send("Pong!");
-});
+// Middleware to parse JSON data
+app.use(express.json());
 
-app.get("/", (req, res) => {
-  const dbStatus = db.readyState === 1 ? "Connected" : "Not Connected";
-  res.json({ message: "Welcome to Home Page", database: dbStatus });
-});
+// Use the defined routes
+app.use("/api", routes);
 
-app.listen(port, () => {
-  console.log(`Server is running at http://localhost:${port}`);
+// Start the server only after DB connection is established
+db.once("open", () => {
+  console.log("✅ Database connection is open. Starting the server...");
+  app.listen(port, () => {
+    console.log(`🚀 Server is running at http://localhost:${port}`);
+  });
 });
