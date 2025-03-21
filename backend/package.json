@@ -1,0 +1,17 @@
+{
+  "name": "s76_late_tales",
+  "version": "1.0.0",
+  "description": "**Late Tales** is a fun and engaging platform that allows anonymous users to vote and comment on their weird and unique reasons for being late. The application provides **interactive and dynamic rankings globally**, showcasing the **best, funniest, and most creative excuses.** The primary goal of **Late Tales** is to entertain users while fostering a sense of community through shared experiences.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1"
+  }
+}
